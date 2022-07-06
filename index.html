@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="input-wrapper">
+        <input type = "text" class="display-screen" id = "result">
+        <div class="cal-content">
+            <input type="button" value="C" class="symbol" onClick="clearScreen()">
+            <input type="button" value="=" class="symbol">
+            <input type="button" value="*" class="symbol" onClick="display('*')">
+            <input type="button" value="^" class="symbol" onClick="display('^')">
+
+            <input type="button" value="1" class="symbol" onClick="display('1')"></input>
+            <input type="button" value="2" class="symbol" onClick="display('2')"></input>
+            <input type="button" value="3" class="symbol" onClick="display('3')"></input>
+            <input type="button" value="+" class="symbol" onClick="display('+')"></input>
+            
+            <input type="button" value="4" class="symbol" onClick="display('4')"></input>
+            <input type="button" value="5" class="symbol" onClick="display('5')"></input>
+            <input type="button" value="6" class="symbol" onClick="display('6')"></input>
+            <input type="button" value="-" class="symbol" onClick="display('-')"></input>
+
+            <input type="button" value="7" class="symbol" onClick="display('7')"></input>
+            <input type="button" value="8" class="symbol" onClick="display('8')"></input>
+            <input type="button" value="9" class="symbol" onClick="display('9')"></input>
+            <input type="button" value="/" class="symbol" onClick="display('/')"></input>
+            
+            <input type="button" value="0" class="symbol" onClick="display('0')"></input>
+            <input type="button" value="." class="symbol" onClick="display('.')"></input>
+            <input type="button" value="00" class="symbol" onClick="display('00')"></input>
+            <input type="button" value="%" class="symbol" onClick="display('%')"></input>
+
+            
+            
+        </div>
+    </div>
+</body>
+</html>
